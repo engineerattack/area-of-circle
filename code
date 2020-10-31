@@ -26,6 +26,29 @@ elif(a==3):
     num1= int(input("Enter the ist number: "))
     sub=num1+(-num2+1);
     print("multiplication is ", multiply(num1,num2)
+elif(a==4):
+    def division(num1, num2):  
+    if (num1 == 0): return 0
+    if (num2 == 0): return INT_MAX  
+    negResult = 0
+    if (num1 < 0): 
+        num1 = - num1 
+        if (num2 < 0): 
+            num2 = - num2  
+        else: 
+            negResult = true                   
+    elif (num2 < 0): 
+        num2 = - num2  
+        negResult = true    
+    quotient = 0 
+    while (num1 >= num2): 
+        num1 = num1 - num2  
+        quotient += 1
+    if (negResult): 
+            quotient = - quotient  
+    return quotient
+num1 = 13; num2 = 2
+print(division(num1, num2))
 else:
     print("you choose wrong key")
              
