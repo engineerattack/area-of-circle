@@ -1,0 +1,17 @@
+print("Welcome to our program")
+print("Enter key 1 for calculate the addition of 2 no. without using + operator ")
+print("Enter key 2 for calculate the subtraction of 2 no. without using - operator ")
+a=int(input("Enter the number "))
+
+if(a==1):
+    num1= int(input("Enter the ist number: "))
+    num1= int(input("Enter the ist number: "))
+    add=num1-(-num2)
+    
+elif(a==2):
+    num1= int(input("Enter the ist number: "))
+    num1= int(input("Enter the ist number: "))
+    sub=num1+(-num2+1)        
+else:
+    print("you choose wrong key")
+             
